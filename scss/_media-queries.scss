@@ -1,0 +1,28 @@
+// Téléphone
+@mixin xs {
+    @media (max-width: 480px) {
+        @content;
+    }
+}
+
+
+// Téléphone en mode paysage à Tablette en mode portrait
+@mixin sm {
+    @media (max-width: 767px) {
+
+    }
+}
+
+// Tablette en mode portrait/paysage à petit écran ordinateur
+@mixin md {
+    @media (min-width: 768px) and (max-width: 979px) {
+
+    }
+}
+
+// Grand écran ordinateur
+@mixin xl {
+    @media (min-width: 1200px) {
+
+    }
+}
